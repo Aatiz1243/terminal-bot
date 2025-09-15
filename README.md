@@ -106,9 +106,6 @@ This repository follows a modular architecture:
 
 The core of Terminal is configurable through a central configuration file or environment variables. Typical configurable items include:
 
-- `BOT_TOKEN` — Bot token (environment variable).
-- `CLIENT_ID` — Optional application ID used for command removal utilities.
-- `GUILD_ID` — Optional single-guild registration for fast testing (not required).
 - Storage options:
   - `baseDir` — Base path for user data storage.
   - `quotaBytes` — Per-user storage quota (default example: 800 MB).
